@@ -247,35 +247,87 @@ body{
 
 /* utility  classes */
 
+.greet-heading{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 0;
+    letter-spacing: 1px;
+}
 
 
+.my-heading{
+    font-size: 2.5rem;
+    margin: 0;
+}
 
+.sub-heading{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #ccc;
+    font-weight: lighter;
+}
 
+.li:hover{
+    border-bottom: 2px solid #fff;
+}
 
+.links{
+    border-bottom: 2px solid transparent;
+    transition: all 0.25s;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
 
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+}
 
+.common-btn:hover{
+    background-color: #fff;
+    color: #35A99C;
+    border: 2px solid #35A99C;
+    outline: none;
+}
 
+.ghost-btn{
+    background-color: #fff;
+    color: #35A99C;
+    border: 2px solid #35A99C;
+    outline: none;
+}
 
+.ghost-btn:hover{
+    background-color: #35A99C;
+    color: #fff;
+    transition: all 0.25s;
+    border: 2px solid #35A99C;
+}
 
+.heading-span{
+    font-weight: bolder;
+}
 
+.text-center{
+    text-align: center;
+}
 
+.small-para{
+    font-size: 14px;
+    color: #fff;
+}
 
+.white-text{
+    color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blue-text{
+    color: #35A99C;
+}
 
 
 
